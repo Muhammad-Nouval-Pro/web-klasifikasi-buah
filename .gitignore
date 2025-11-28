@@ -1,0 +1,23 @@
+# Python venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model / file besar
+*.h5
+*.keras
+
+# Node / frontend
+node_modules/
+dist/
+*.log
+
+# Environment
+.env
+
+# OS
+Thumbs.db
+.DS_Store
