@@ -1,7 +1,9 @@
 // src/App.jsx
 import { useEffect, useRef, useState } from "react";
 
-const BACKEND_URL = "http://localhost:5000"; // ganti kalau backend beda host/port
+const BACKEND_URL =
+  import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
+
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);
